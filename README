@@ -1,0 +1,10 @@
+API Interface of Zuora web service
+
+run this command to initiate zuora account info on the console:
+
+export ZUORA_USERNAME='XXXX'
+export ZUORA_PASSWORD='XXXX'
+
+use 'bundle exec rake' to run all the tests
+
+Note that there is coporate proxy settings in specs/spec_helper and specs/login_spec.

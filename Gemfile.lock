@@ -1,0 +1,46 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.2.2)
+      i18n (~> 0.6)
+      multi_json (~> 1.0)
+    akami (1.0.0)
+      gyoku (>= 0.4.0)
+    builder (3.0.0)
+    diff-lcs (1.1.3)
+    gyoku (0.4.4)
+      builder (>= 2.1.2)
+    httpi (0.9.6)
+      rack
+    i18n (0.6.0)
+    multi_json (1.2.0)
+    nokogiri (1.5.2)
+    nori (1.1.0)
+    rack (1.4.1)
+    rspec (2.8.0)
+      rspec-core (~> 2.8.0)
+      rspec-expectations (~> 2.8.0)
+      rspec-mocks (~> 2.8.0)
+    rspec-core (2.8.0)
+    rspec-expectations (2.8.0)
+      diff-lcs (~> 1.1.2)
+    rspec-mocks (2.8.0)
+    savon (0.9.9)
+      akami (~> 1.0)
+      builder (>= 2.1.2)
+      gyoku (>= 0.4.0)
+      httpi (~> 0.9)
+      nokogiri (>= 1.4.0)
+      nori (~> 1.1)
+      wasabi (~> 2.1)
+    wasabi (2.1.0)
+      nokogiri (>= 1.4.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  activesupport
+  gyoku
+  rspec
+  savon
